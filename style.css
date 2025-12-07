@@ -1,0 +1,186 @@
+/* ========================================================= */
+/*             THEME PREMIUM – ROUGE & CORAIL               */
+/* ========================================================= */
+
+/* ------------------------------- */
+/*            GLOBAL               */
+/* ------------------------------- */
+
+body {
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FDF6F4;
+    color: #3A3A3A;
+    line-height: 1.7;
+}
+
+/* Conteneur principal en carte centrale */
+.container {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+    border: 1px solid #E6E2DF;
+}
+
+/* ------------------------------- */
+/*        NAVIGATION BAR           */
+/* ------------------------------- */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(138,28,28,0.95); /* semi-transparent rouge profond */
+    padding: 16px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.25);
+    backdrop-filter: blur(6px);
+}
+
+.navbar a {
+    color: #FDF6F4 !important;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #D9534F !important;
+    transform: translateY(-2px);
+    border-bottom: 2px solid #D9534F;
+}
+
+/* ------------------------------- */
+/*            TITRES               */
+/* ------------------------------- */
+
+h1, h2, h3, h4 {
+    color: #8A1C1C;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.3rem;
+    border-bottom: 4px solid #D9534F;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-left: 6px solid #D9534F;
+    padding-left: 12px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #D9534F;
+    margin-top: 28px;
+}
+
+/* ------------------------------- */
+/*        BLOCS DE CONTENU         */
+/* ------------------------------- */
+
+.section-block {
+    background: #FFF1EF;
+    padding: 30px;
+    margin: 35px 0;
+    border-left: 8px solid #D9534F;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* Paragraphes */
+p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* Listes */
+ul {
+    padding-left: 28px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+/* ------------------------------- */
+/*             TABLES              */
+/* ------------------------------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFF;
+    margin: 30px 0;
+    font-size: 15.5px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #E6E2DF;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+table th {
+    background: #8A1C1C;
+    color: #FDF6F4;
+    padding: 14px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #EDE5E3;
+}
+
+table tr:nth-child(even) {
+    background: #FFF5F4;
+}
+
+table tr:hover {
+    background: #FFE9E6;
+    transition: 0.2s;
+}
+
+/* ------------------------------- */
+/*           BLOCS DE CODE         */
+/* ------------------------------- */
+
+pre, code {
+    background: #FDF0EF;
+    color: #8A1C1C;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-family: "Fira Code", monospace;
+    border-left: 6px solid #D9534F;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+pre {
+    overflow-x: auto;
+    margin-bottom: 24px;
+}
+
+/* ------------------------------- */
+/*             FOOTER              */
+/* ------------------------------- */
+
+footer {
+    text-align: center;
+    padding: 26px;
+    background: #8A1C1C;
+    color: #FDF6F4;
+    font-size: 15px;
+    margin-top: 60px;
+    border-top: 5px solid #D9534F;
+    box-shadow: 0 -3px 14px rgba(0,0,0,0.20);
+}
